@@ -13,7 +13,7 @@ def interpret_bmi(bmi):
     else:
         return "Obese"
 weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in Feet: "))
+height = float(input("Enter your height in Meter: "))
 bmi_result = calculate_bmi(weight, height)
 bmi_category = interpret_bmi(bmi_result)
 print("Your BMI is:",bmi_result)
